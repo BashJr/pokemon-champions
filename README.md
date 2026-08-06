@@ -8,7 +8,7 @@ A fast, all-in-one companion for **Pokémon Champions** competitive play: team b
 
 ## 🚀 Getting started
 
-1. **Open the app:** click the live link (bookmark it!) — it works on phone, tablet, or computer.
+1. **Open the app:** click the [live link](https://bashjr.github.io/pokemon-champions/) (bookmark it!) — it works on phone, tablet, or computer.
 2. **Pick your format:** use the **Singles / Doubles** toggle at the top. Everything — rankings, tiers, team ratings — re-sorts to match the format you're laddering in. The two are completely separate metagames, so this matters.
 3. **Set your vibe:** toggle **light / dark mode** with the theme switch. Your choice is remembered.
 4. **Build a team, then battle with the tools open** on a second tab or your phone.
