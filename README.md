@@ -1,81 +1,107 @@
 # ⚡ Champions Meta Dashboard — Reg M-B
 
-A fast, all-in-one companion for **Pokémon Champions** competitive play: team builder, live meta rankings, damage calculator, speed tiers, and in-match quick-look — for both **Singles** and **Doubles**. Built for the current **Regulation M-B** format.
+A fast, all-in-one companion for **Pokémon Champions** competitive play: team builder, live meta rankings, full Pokédex & movesets, damage tools, speed tiers, a training quiz, and in-match decision aids — for both **Singles** and **Doubles**, built for the current **Regulation M-B** season.
 
-**No install, no login, no account.** Just open the link in any browser.
+**No install, no login, no account.** Open the link in any browser (phone or desktop) and go.
 
 ---
 
 ## 🚀 Getting started
 
-1. **Open the app:** click the [live link](https://bashjr.github.io/pokemon-champions/) (bookmark it!) — it works on phone, tablet, or computer.
-2. **Pick your format:** use the **Singles / Doubles** toggle at the top. Everything — rankings, tiers, team ratings — re-sorts to match the format you're laddering in. The two are completely separate metagames, so this matters.
-3. **Set your vibe:** toggle **light / dark mode** with the theme switch. Your choice is remembered.
-4. **Build a team, then battle with the tools open** on a second tab or your phone.
+1. **Open the app** and bookmark it — it works on phone, tablet, or computer.
+2. **Pick your format** with the **Singles / Doubles** toggle at the top. The two are completely separate metagames, so rankings, tiers, quizzes and team ratings all re-sort to match.
+3. **Choose your theme** with the ☀️/🌙 button (it eases smoothly between light and dark, and remembers your choice).
+4. **Build a team, then keep the in-match tools handy** on a second tab or your phone during a game.
 
-Your saved teams, League history, and settings live in *your* browser and stick around between visits — nothing is uploaded anywhere.
+Your saved teams, League history, quiz stats, and settings live in **your** browser and persist between visits — nothing is uploaded anywhere. The **"updated [date]"** stamp on the Start screen tells you which build you're on.
 
 ---
 
 ## 🎯 How to use it best
 
-- **Building a new team?** Start in **Team Builder** — add Pokémon and it live-rates your squad, flags weaknesses, and suggests partners. Cross-check threats in **Meta Ranking** and cover them with **Team Preview**.
-- **Laddering right now?** Keep **In-Match** and **Speed Tiers** open. When an unknown mon shows up, search it in In-Match for an instant "what does this do / how do I beat it" card.
-- **Deciding if you win the damage roll?** Use **Damage Calc** before you lock a move.
-- **Tracking your climb?** Log every set in **History** to see season-over-season progress and which teams actually win for you.
-- **Switch the format toggle** whenever you move between Singles and Doubles ladders — the whole app follows.
+- **Building a team?** Start in **Team Builder** — add Pokémon and it live-rates your squad, flags shared weaknesses, shows what survives the meta, and suggests partners. You can also **paste a Showdown/Poképaste team** to import it instantly.
+- **Learning the format?** **Meta Ranking** for who's winning, **Pokédex** for any mon's full profile, **Archetypes** to understand the weather/Trick Room engines, **Movesets** for legal movepools.
+- **Mid-match?** Keep **In-Match** (quick "what beats this") and **Battle Calc** (your team's damage vs the foe) open; **Team Preview** tells you which 4 to bring and in what order.
+- **Getting better?** The **Quiz** drills weaknesses, resistances, speed order, and KO breakpoints, and tracks what you keep missing.
+- **Track your climb** in **History** — rank, win rate, win-rate by archetype, and a rating sparkline.
 
 ---
 
 ## 📖 What each section does
 
 ### ⚡ Start
-Your home base. Shows the current format, total Pokémon + Megas covered, and the **active season window** (auto-updates each season). The **"updated [date]"** stamp here tells you which build you're on — handy for confirming you've got the latest version.
+Your home base: current format, total Pokémon + Megas covered, the **active season window** (auto-updates each season), and a card for every section. The **"updated [date]"** stamp confirms your build.
 
 ### 🛠️ Team Builder
-The core tool. Add up to 6 Pokémon and it **live-rates your team**, showing type coverage, shared weaknesses, speed control, and role balance. Set each mon's item, ability, nature, and moves; Mega stones auto-attach. Save teams to your browser and share them with an **export/import code**.
+The core tool. Add up to 6 Pokémon and it **live-rates your team** (coverage, shared weaknesses, speed control, role balance), reading the exact moves you pick. Per-mon editor sets ability, item, nature, four moves and **Stat Points** (Champions' 66-point / 32-per-stat system; IVs are always perfect), all through styled dropdowns with type-colored moves. Includes **"what survives the meta"** (which of the top-20 attackers OHKO each of your mons, assuming realistic top-8 movesets), a **"how to play this team"** strategy note based on your detected archetype, saved teams (with held-item icons), a printable **team Card**, an **export code**, and **Import code / Paste team** (Showdown/Poképaste).
 
 ### 🧬 Meta Teams
-Ready-made, competitively sound sample teams built around the current meta's top cores. A fast way to see what winning squads look like and to borrow ideas or a starting shell.
+Real high-placing tournament teams (condensed, two-per-row, with item icons) plus popular **Mega duos**. Load one into the builder and tweak it.
 
 ### 📈 History
-Your personal **League tracker**. Log results season by season — your rank/ELO, wins and losses, and exactly **which Pokémon you brought** each game (it pre-fills from your saved team so you just click who you led with). Compare seasons and spot which teams perform best. Now defaults to **Season 5**.
+Your personal **League tracker**. Log each ranked result — rank/ELO, win/loss, and which Pokémon you brought (it pre-fills from your team). See your standing, win streak, **team performance**, **season-by-season**, **win rate by archetype**, a **rating-over-time sparkline**, and who you lean on most. Format-aware and stored only in your browser.
 
 ### 📊 Meta Ranking
-The **live usage-based tier list** — who's actually being used and winning, ranked S through lower tiers, with usage percentages. Kept separate for Singles vs Doubles. This is your "know the threats" board, updated regularly.
+The **tier list** — S→F by a meta score. The top ~20 are pinned to live Pikalytics usage; ranks ~21–150 are **hand-tiered by competitive judgment** (not raw stats); beyond that a base-stat/typing formula fills in as "good on paper." Kept separate for Singles vs Doubles. Includes a **searchable Counter Finder** — pick a threat, get its best answers.
 
 ### 📚 Pokédex
-Searchable database of every Reg M-B–legal Pokémon: typings, base stats, abilities, and meta tier at a glance. Your quick reference for any mon in the format.
+Searchable profile for every Reg M-B–legal Pokémon: base-stat bars, abilities (with what they do), top moves / items / natures by usage, and common teammates. Styled Type / Role / Sort filters.
 
 ### 📖 Movesets
-Detailed move information — full movepools grouped by Physical / Special / Status, with **accuracy, PP, category, effects, and descriptions**. Includes move "flags" (slicing, punching, biting, pulse, sound, ball) and how abilities like Sharpness, Iron Fist, or Tough Claws boost them. Great for learning what a Pokémon can actually threaten.
+Full legal movepools grouped by Physical / Special / Status, each move showing **type, category, BP, accuracy, max PP** (Champions maxes PP), effect, target, and move "flags" (slicing, punching, biting, pulse, sound, ball) with ability boosts. Jump-to-a-Pokémon picker shows sprites.
 
 ### 🧩 Archetypes
-The metagame's playstyles — rain, Trick Room, hyper offense, balance, and more — with the cores and support pieces that define each. Helps you understand *why* teams are built the way they are, and how to counter them.
+Each archetype is split into **🔧 Glue** — the 2–4 enablers that make the strategy work (weather setters, Trick Room, redirection; off-meta picks included) — and **✨ Benefits from it** — the 5 Pokémon that gain most once it's running. "Load glue core" drops the enablers into the builder. Plus a splashable **Support / Goodstuff** list.
 
 ### 🎒 Items
-Common competitive items and what they do, so you know why a mon is running a Choice Scarf vs a Focus Sash vs Leftovers — and can spot held-item tells mid-match.
+Every competitive item & Mega Stone with official art, grouped by purpose; click one to see which Pokémon run it.
 
-### ⚡ In-Match
-Built for **speed during a live game** (mobile-friendly). Search any Pokémon and instantly get: what it's weak to ("hit it with…"), its speed (base / max / Scarf), its usual item and ability, and its top moves. Your go-to when an unexpected mon appears.
+### 🎓 Quiz
+Drill the fundamentals in **four modes**: **Weaknesses** and **Resistances** (Easy = pick one from a shortlist; Hard = select every type across all 18, with multipliers revealed), **Speed Tiers** (Easy = who's faster; Hard = order 4 by doubles turn order), and **KO Check** (guaranteed OHKO / roll / no KO). Tracks accuracy, keeps a **Highlights** and **"work on this"** list of what you keep missing, and never repeats a Pokémon within a quiz.
+
+### ⚔️ In-Match
+Built for **speed during a live game** (mobile-first). Search any Pokémon and instantly get: what it's weak to, its speed (base / max / Scarf), its usual item and ability, and its top moves.
 
 ### 💨 Speed Tiers
-A sorted **speed chart** for the meta — see who outspeeds whom, including Scarf and Tailwind math. Essential for deciding whether you win the speed tie or need priority/speed control.
+A sorted **speed chart** for the meta (Scarf/Tailwind math included). Click any row to drop it into the **Speed Race**, which resolves who moves first under natures, items, weather abilities, and field conditions.
 
-### 🎯 Damage Calc
-A proper **damage calculator** — pick attacker, defender, move, item, and field conditions to see damage ranges and KO chances. Settle the "does this OHKO?" question before you commit.
+### 🎯 Battle Calc — live team check
+The fast one for mid-match: choose your team and the opponent in front of you, and see **every move** each of your Pokémon can throw (and the worst hit it takes back). It uses the **exact Stat Points, nature, item and moves from the team you select** — no per-slot setup. Weather, terrain, and a **"foe spread" (standard vs max-bulk)** setter included.
+
+### 🧪 Battle Sim
+The deep one: set up a full **2v2 / 1v1** by hand — every mon's item, ability, nature, moves and Stat Points — and see the turn order plus damage every way, in collapsible click-to-edit cards. Weather, terrain, Trick Room, screens, spread reduction, stat stages, a "Foe = max bulk" toggle, and best-move recommendations (using realistic top-8 movesets).
 
 ### 🔎 Team Preview
-Paste or load a team and see its **overall threat/weakness profile vs the meta** — shared weaknesses, coverage gaps, and anti-synergies. Use it in the team preview phase to plan your leads and your back line.
+Built for the 90-second preview: enter the opponent's six and it predicts **their likely 4** (and their probable **2 leads**), then recommends **your best 4 against that four — in lead order**, choosing your two leads as a *synergistic pair* (with a one-line reason), plus threats to watch and damage matrices both ways.
 
 ### 🔗 Sources
-Where the data comes from — the usage stats, tier references, and mechanics sources behind the app.
+Where the data comes from — usage stats, tier references, and mechanics sources.
+
+---
+
+## 🧮 How the damage math works
+
+Every mon is at **Level 50 with perfect IVs** (Champions always maxes IVs) plus your **Stat Points** (66 total, 32 per stat) and the nature's ±10%. It runs the standard damage formula with STAB, type effectiveness, **weather**, **terrain** (grounded mons), **held items** (Life Orb, type boosters, etc.), **abilities** — including immunities (Levitate, Flash Fire, the absorbs, Storm Drain/Lightning Rod, Sap Sipper, Dry Skin…) and reducers (Multiscale, Thick Fat, Filter/Solid Rock, Heatproof, Ice Scales…) — screens, and the Doubles spread ×0.75, reporting the top of the damage roll. Auto-recommendations assume each mon's **top-8 most-used moves** (no rare tech), so you won't see, say, Garchomp "using" Poison Jab.
 
 ---
 
 ## 🔄 Staying up to date
 
-The meta shifts, so this app gets refreshed regularly. The **"updated [date]"** stamp on the **Start** screen shows your current build. If a friend shared the link with you, just refresh the page to get their latest version — your saved data carries over.
+The meta shifts, so the app is refreshed regularly (usage %s, tiers, sprites). The **"updated [date]"** stamp on the Start screen shows your build. If a friend shared the link, just refresh to get the latest — your saved data carries over.
+
+---
+
+## 🆕 What's new (recent updates)
+
+- **Meta Ranking** expanded from ~42 to a **hand-tiered top ~150**; formula only fills the tail.
+- **Raichu-Mega-X and Raichu-Mega-Y** added as distinct A-tier meta entries (Eternal Flower **Mega Floette** now uses the correct sprite, too).
+- **Damage engine accuracy**: ability immunities & reducers, and **terrain** are now modeled; auto-picks use realistic top-8 movesets.
+- **Battle Calc** (live, whole-team) and **Battle Sim** (deep manual) are now **separate tools**, both with weather/terrain and foe-spread options.
+- **Quiz** gained Easy/Hard difficulty, a **Speed turn-order** mode, and a **KO Check** mode, plus highlights/lowlights and no-repeat questions.
+- **Team Builder**: paste-team import, printable card with sprites, blockier styled controls, held-item icons on saved teams, "how to play this team," and "what survives the meta."
+- **Archetypes** rebuilt around the **Glue + Benefits** model.
+- **Team Preview** now predicts the opponent's likely 4 and leads, and orders your picks with a synergistic lead pair.
+- **UX**: custom styled (searchable) dropdowns everywhere, gentler theme transition, smoother mobile layout, sprite preloading, and Start-page cards aligned to the nav.
 
 ---
 
