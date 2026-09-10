@@ -1,6 +1,6 @@
-# ⚡ Champions Meta Dashboard — Reg M-B
+# ⚡ Champions Meta Dashboard — Reg M-C
 
-A fast, all-in-one companion for **Pokémon Champions** competitive play: team builder, live meta rankings, full Pokédex & movesets, damage tools, speed tiers, a training quiz, and in-match decision aids — for both **Singles** and **Doubles**, built for the current **Regulation M-B** season.
+A fast, all-in-one companion for **Pokémon Champions** competitive play: team builder, live meta rankings, full Pokédex & movesets, damage tools, speed tiers, a training quiz, and in-match decision aids — for both **Singles** and **Doubles**, built for the current **Regulation M-C** season (**one Mega Evolution per battle**; Sept 9 – Dec 1, 2026).
 
 **No install, no login, no account.** Open the link in any browser (phone or desktop) and go.
 
@@ -45,7 +45,7 @@ Your personal **League tracker**. Log each ranked result — rank/ELO, win/loss,
 The **tier list** — S→F by a meta score. The top ~20 are pinned to live Pikalytics usage; ranks ~21–150 are **hand-tiered by competitive judgment** (not raw stats); beyond that a base-stat/typing formula fills in as "good on paper." Kept separate for Singles vs Doubles. Includes a **searchable Counter Finder** — pick a threat, get its best answers.
 
 ### 📚 Pokédex
-Searchable profile for every Reg M-B–legal Pokémon: base-stat bars, abilities (with what they do), top moves / items / natures by usage, and common teammates. Styled Type / Role / Sort filters.
+Searchable profile for every Reg M-C–legal Pokémon: base-stat bars, abilities (with what they do), top moves / items / natures by usage, and common teammates. Styled Type / Role / Sort filters.
 
 ### 📖 Movesets
 Full legal movepools grouped by Physical / Special / Status, each move showing **type, category, BP, accuracy, max PP** (Champions maxes PP), effect, target, and move "flags" (slicing, punching, biting, pulse, sound, ball) with ability boosts. Jump-to-a-Pokémon picker shows sprites.
@@ -93,6 +93,19 @@ The meta shifts, so the app is refreshed regularly (usage %s, tiers, sprites). T
 
 ## 🆕 What's new (recent updates)
 
+### 🌟 Now on Regulation M-C — Season M-6 (Sept 9 – Dec 1, 2026)
+
+The **M-C** update is live. Highlights:
+
+- **One Mega Evolution per battle.** M-C uses the M-A format: you can still **bring as many Mega Stones as you like** (up to all six) — you just can't Mega Evolve more than **one** Pokémon in a single game. The Team Builder shows a friendly reminder when you're carrying multiple Mega forms, and flags the one thing that *is* illegal: **duplicate held items** (Item Clause).
+- **The Legends Z-A Mega wave.** Mega **Salamence**, **Golisopod** (now Bug/Steel), and **Baxcalibur**, plus the three brand-new **Z-Megas** — Mega **Garchomp Z**, **Lucario Z**, and **Absol Z** (Dark/Ghost), all screaming in at base **151 Speed** — added with real stats, abilities, Mega Stones, and sprites.
+- **24 new Pokémon** from the M-C roster — Rillaboom, Cinderace, Inteleon, Toxtricity, Sirfetch'd, Pawmot, Arboliva, Mabosstiff, Indeedee, and more — each given a meta score and slotted into the tier list.
+- **New M-C items** with descriptions and icons — Rocky Helmet, Air Balloon, Eject Button, Red Card, Terrain Extender, the four Terrain Seeds, Normal Gem, Binding Band, and Leek — highlighted in a **"New in M-C"** section pinned to the top of the Items tab (older items no longer carry a stale NEW tag).
+- **Meta Teams** shows the **2026 World Championships** top teams (built under M-B), with a note on how to make any double-Mega core M-C-legal.
+- **Pixel sprites** restored as the primary art style across the whole app, and the **Battle Calc** gained quick **Foe Def / Foe SpD** stat-stage toggles.
+
+### Earlier updates
+
 - **Meta Ranking** expanded from ~42 to a **hand-tiered top ~150**; formula only fills the tail.
 - **Raichu-Mega-X and Raichu-Mega-Y** added as distinct A-tier meta entries (Eternal Flower **Mega Floette** now uses the correct sprite, too).
 - **Damage engine accuracy**: ability immunities & reducers, and **terrain** are now modeled; auto-picks use realistic top-8 movesets.
@@ -105,4 +118,4 @@ The meta shifts, so the app is refreshed regularly (usage %s, tiers, sprites). T
 
 ---
 
-*Fan-made tool for Pokémon Champions Reg M-B. Not affiliated with Nintendo, Game Freak, or The Pokémon Company.*
+*Fan-made tool for Pokémon Champions Reg M-C. Not affiliated with Nintendo, Game Freak, or The Pokémon Company.*
